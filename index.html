@@ -4,44 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/maincss.css">
     <title>Camila Fariña </title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Inicio</li>
-                <li>Quien soy</li>
-                <li>Portafolio</li>
-                <li>Contacto</li>
+        <nav class="navbar">
+            <div class="letra">
+            <h2>Camila <span>Fariña</span></h2>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#" class="active">Inicio</a>
+                </li>
+                <li>
+                    <a href="#"> Quien soy</a>
+                </li>
+                <li>
+                    <a href="#">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#"> Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <img src="./imagenes/foto-mia.png" style="height:400px; width:300px;" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aspernatur doloremque quos fugiat molestias, 
-                itaque dignissimos quasi eius similique eum pariatur error commodi earum porro culpa illum. Quis itaque molestias in?</p>
+        <section class="foto-mia">
+            <div class="biografia">
+                <h1>soy <span>camila</span>fariña</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aspernatur doloremque quos fugiat molestias, 
+                    itaque dignissimos quasi eius similique eum pariatur error commodi earum porro culpa illum. Quis itaque molestias in?</p>
+            </div>
+            <img class="foto" src="./imagenes/foto-mia.png" style="height:400px; width:300px;" alt="">
+        
         </section>
+        <div class="fondo-blanco">
+            <section class="sobre-mi">
+                <h3>Sobre Mi</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Id deleniti mollitia cum alias veniam consequatur quidem aliquam facere et laudantium aspernatur exercitationem amet, facilis, nihil sunt nisi accusantium magni obcaecati!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur similique commodi iusto accusantium nam repudiandae modi accusamus error sit eos quam fugiat, at nesciunt quisquam eveniet laborum molestias temporibus. 
+                    Omnis?
+                </p>
+            </section>
+        </div>
 
-        <section>
-            <h3>Sobre Mi</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Id deleniti mollitia cum alias veniam consequatur quidem aliquam facere et laudantium aspernatur exercitationem amet, facilis, nihil sunt nisi accusantium magni obcaecati!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur similique commodi iusto accusantium nam repudiandae modi accusamus error sit eos quam fugiat, at nesciunt quisquam eveniet laborum molestias temporibus. 
-                Omnis?
-            </p>
-        </section>
+        <h2 class="mis-proyectos">Mis Proyectos</h2>
 
-        <section>
-            <h3>Mis Proyectos</h3>
-            <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;" alt="">
-            <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;" alt="">
-            <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;"  alt="">
+        <section class="mis-proyectos">
+                <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;" alt="">
+                <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;" alt="">
+                <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;"  alt="">
         </section>
     </main>
+
+    <hr>
+
+    <footer class="footer">
+        <h2>camila fariña</h2>
+        <h4>Frontend Developer</h4>
+
+        <ul class="redes">
+            <li>
+                <a href="https://www.instagram.com/ccamii_02/">
+                    <img src="./imagenes/instagram.png" style="width:30px; height: 30px; ">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/camila-fariña-96024223b/">
+                    <img src="./imagenes/linkedin.png" style="width:30px; height: 30px; ">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com">
+                    <img src="./imagenes/twitter.png" style="width:30px; height: 30px; ">
+                </a>
+            </li>
+        </ul>
+    </footer>
 
 
 
