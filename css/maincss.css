@@ -45,10 +45,16 @@ main {
   .foto-mia span {
     margin: 3px;
     color: aqua; }
-  .foto-mia p {
-    color: #fff; }
   .foto-mia .foto {
     border: 4px solid #c3c3f5; }
+  .foto-mia .redes {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0; }
+    .foto-mia .redes li {
+      margin: 15px; }
 
 .biografia {
   width: 50%; }
@@ -59,13 +65,16 @@ main {
   margin-top: 5px;
   display: flex;
   flex-direction: row; }
-
-.sobre-mi {
-  width: 80%;
-  margin-top: 50px;
-  margin-left: 100px;
-  text-align: left;
-  margin-left: 200px; }
+  .fondo-blanco .sobre-mi {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: left;
+    margin-left: 200px; }
+  .fondo-blanco .tecnologias {
+    padding-top: 20px; }
+    .fondo-blanco .tecnologias img {
+      padding: 10px; }
 
 .mis-proyectos {
   align-content: center;
@@ -74,8 +83,15 @@ main {
 .mis-proyectos {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly; }
+  .mis-proyectos .botton {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua; }
 
 .contacto-form {
   display: flex;
@@ -118,19 +134,21 @@ hr {
   margin: 0px; }
 
 .footer {
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   background-color: aqua; }
-  .footer h2 {
-    margin: 0px; }
-  .footer h4 {
-    margin: 0px; }
+  .footer div {
+    margin-top: 150px; }
+    .footer div .texto {
+      text-align: center;
+      margin: 0px; }
   .footer .redes {
     list-style: none;
     display: flex;
     flex-direction: row;
     margin-right: 40px; }
     .footer .redes li {
-      margin: 5px; }
+      margin: 15px; }

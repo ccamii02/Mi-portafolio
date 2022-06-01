@@ -16,53 +16,110 @@
             </div>
             <ul class="menu">
                 <li>
-                    <a href="#" class="active">Inicio</a>
+                    <a href="#inicio" class="active">Inicio</a>
                 </li>
                 <li>
-                    <a href="#"> Quien soy</a>
+                    <a href="#quien-soy"> Quien soy</a>
                 </li>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#"> Contacto</a>
+                    <a href="#contacto"> Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="foto-mia">
+        <section id="inicio" class="foto-mia">
             <div class="biografia">
                 <h2>Soy <span>Camila</span>Fariña</h2>
-                <p>Soy desarrlladora web, Termine mis estudios en coderHouse, Uso tecnologias de HTML, CSS y JavaScript, Implementando SASS y bibliotecas como Boostrap.
-                    Actualmente me dedico a ser FreeLance.
-                </p>
+                <h2>Desarrolador Front-End</h2>
+
+                <ul class="redes">
+                    <li>
+                        <a href="https://www.instagram.com/ccamii_02/">
+                            <img src="./imagenes/instagram.png" style="width:30px; height: 30px; ">
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="https://github.com/ccamii02">
+                            <img src="./imagenes/icono-github.png"  style="width:30px; height: 30px; " alt="">
+                        </a>
+                        
+                    </li>
+    
+                    <li>
+                        <a href="https://www.linkedin.com/in/camila-fariña-96024223b/">
+                            <img src="./imagenes/linkedin.png" style="width:30px; height: 30px; ">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com">
+                            <img src="./imagenes/twitter.png" style="width:30px; height: 30px; ">
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="https://mail.google.com/mai">
+                            <img src="./imagenes/icono-mail.png"  style="width:30px; height: 30px; " alt="">
+                        </a>
+                        
+                    </li>
+                </ul>
             </div>
-            <img class="foto" src="./imagenes/foto-mia.png" style="height:400px; width:300px;" alt="">
+            <img class="foto" src="./imagenes/foto-mia.png" style="height:500px; width:300px;" alt="">
         
         </section>
-        <div class="fondo-blanco">
-            <img src="./imagenes/foto-mia.png"  style="height:500px; width:300px;" alt="">
+
+        <div id="quien-soy" class="fondo-blanco">
+            <img src="./imagenes/fondo-codigo2.jpg"  style="height:500px; width:600px;" alt="">
             <section class="sobre-mi">
                 <h1>Sobre Mi</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Id deleniti mollitia cum alias veniam consequatur quidem aliquam facere et laudantium aspernatur exercitationem amet, facilis, nihil sunt nisi accusantium magni obcaecati!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur similique commodi iusto accusantium nam repudiandae modi accusamus error sit eos quam fugiat, at nesciunt quisquam eveniet laborum molestias temporibus. 
-                    Omnis?
+                <p>Soy desarrlladora web, Termine mis estudios en coderHouse en, Uso tecnologias de HTML, CSS y JavaScript, Implementando SASS y bibliotecas como Boostrap.
+                    Actualmente me dedico a ser FreeLance.
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis velit, fuga quibusdam ipsum eveniet assumenda, doloremque nesciunt, nulla eaque dignissimos porro earum. Doloremque natus aspernatur eum, repellat nobis molestias!</p>
+
+                <p>Tengo 20 Años, Soy de Buenos Aires, Argentina. <br>
+                    Mi objetivo es ser Desarrolador Fullstack, Y seguir expandiendo mis conocimientos en la programacion. 
+                </p>
+
+                <section class="tecnologias">
+                    <h2>Tecnologias que uso</h2>
+                    <img src="./imagenes/icono-html.png" style="height:80px; width: 80px;" alt="">
+                    <img src="./imagenes/icono-css.png"  style="height:80px; width: 80px;" alt="">
+                    <img src="./imagenes/icono-bootstrap.png"  style="height:80px; width: 80px;" alt="">
+                    <img src="./imagenes/icono-sass.png"  style="height:80px; width: 80px;" alt="">
+                    <img src="./imagenes/icono-figma.png"  style="height:80px; width: 80px;" alt="">
+                </section>
             </section>
+
+
         </div>
 
         
 
-        <h2 class="mis-proyectos">Mis Proyectos</h2>
+        <h2 id="portafolio" class="mis-proyectos">Mis Proyectos</h2>
 
         <section class="mis-proyectos">
+
+            <div class="foto-proyecto">
+                <img src="./imagenes/proyecto-dw2.png" style="height:300px; width:300px;" alt="">
+                <button type="submit" class="botton">Ver proyecto</button>
+            </div>
+
+            <div class="foto-proyecto">
                 <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;" alt="">
-                <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;" alt="">
+                <button type="submit" class="botton">Ver proyecto</button>
+            </div>
+
+            <div class="foto-proyecto">
                 <img src="./imagenes/imagen-negra.webp" style="height:300px; width:300px;"  alt="">
+                <button type="submit" class="botton">Ver proyecto</button>
+            </div>
+
         </section>
 
         <section>
@@ -80,27 +137,45 @@
 
     <hr>
 
-    <footer class="footer">
-        <h2>camila fariña</h2>
-        <h4>Frontend Developer</h4>
+    <footer id="contacto" class="footer">
 
-        <ul class="redes">
-            <li>
-                <a href="https://www.instagram.com/ccamii_02/">
-                    <img src="./imagenes/instagram.png" style="width:30px; height: 30px; ">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/camila-fariña-96024223b/">
-                    <img src="./imagenes/linkedin.png" style="width:30px; height: 30px; ">
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com">
-                    <img src="./imagenes/twitter.png" style="width:30px; height: 30px; ">
-                </a>
-            </li>
-        </ul>
+        <div>
+            <h2 class="texto">camila fariña</h2>
+            <h4 class="texto">Front-End Developer</h4>
+
+            <ul class="redes">
+                <li>
+                    <a href="https://www.instagram.com/ccamii_02/">
+                        <img src="./imagenes/instagram.png" style="width:30px; height: 30px; ">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/ccamii02">
+                        <img src="./imagenes/icono-github.png"  style="width:30px; height: 30px; " alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/camila-fariña-96024223b/">
+                        <img src="./imagenes/linkedin.png" style="width:30px; height: 30px; ">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com">
+                        <img src="./imagenes/twitter.png" style="width:30px; height: 30px; ">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://mail.google.com/mai">
+                        <img src="./imagenes/icono-mail.png"  style="width:30px; height: 30px; " alt="">
+                    </a>
+                    
+                </li>
+            </ul>
+        </div>  
+
     </footer>
 
 

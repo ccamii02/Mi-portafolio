@@ -2,20 +2,21 @@ hr{
     margin: 0px;
 }
 .footer{
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background-color: aqua;
 
-
-    h2{
-        margin: 0px;
-    }
-    h4{
-        margin: 0px;
-    }
+    div{
+        margin-top: 150px;
     
+        .texto{
+            text-align: center;
+            margin: 0px;
+        }
+    }
     .redes{
         list-style: none;
         display: flex;
@@ -23,7 +24,7 @@ hr{
         margin-right: 40px ;
         
         li{
-            margin: 5px;
+            margin: 15px;
         }
     }
 }
