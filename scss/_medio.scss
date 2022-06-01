@@ -1,0 +1,103 @@
+.foto-mia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+
+    h2{
+        color: #fff;
+    }
+    span{
+        margin: 3px;
+        color: aqua;
+    }
+    p{
+        color: #fff;
+    }
+    
+    .foto{
+        border: 4px solid rgb(195, 195, 245);
+    }
+
+}
+
+.biografia{
+    width: 50%;
+}
+.fondo-blanco{
+    backdrop-filter: blur(2px);
+    background-color: #fff;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.sobre-mi{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align:left;
+    margin-left: 200px;
+}
+
+
+.mis-proyectos{
+    align-content: center;
+    color: #fff;
+
+}
+.mis-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-bottom: 0px; 
+    padding-bottom: 20px;
+    
+    h4{
+        color: #fff;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .input{
+        width: 450px;
+        padding: 10px 20px;
+        margin:15px;
+        border: none;
+        background: none;
+        border-bottom: 1px solid #fff;
+        
+    }
+
+    textarea{
+        height:150px;
+        padding:10px;
+        width: 500px;
+        background: none;
+        border: 1px solid #fff;
+    color: #fff;
+    }
+
+    .botton{
+        padding: 10px 20px ;
+        margin-top: 5px;
+        border-radius: 20px;
+        border: none;
+        text-transform: uppercase;
+        background-color: aqua;
+    }
+}

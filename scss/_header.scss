@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    
+}
+header{
+    background-color: #191c32;
+    
+
+    h1{
+        color: #fff;
+    }
+}
+main{
+    background-color:#191c32;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    span{
+        color: aqua;
+    }
+
+}
+.letra{
+    margin: -10px;
+}
+.menu{
+    padding-bottom: 50px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 600px;
+
+    .active{
+        color: aqua;
+    }
+
+    li{
+        list-style: none;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
