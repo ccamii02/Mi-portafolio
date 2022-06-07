@@ -41,10 +41,19 @@ main{
 
     li{
         list-style: none;
+        transition: ease-out all 0.5s;
+    }
+    li:hover{
+        background-color: rgb(252, 229, 229);
+        background-size: cover;
+        transform: scale(1);
+        
     }
     a{
         color: #fff;
         text-decoration: none;
     }
 }
+
+
 

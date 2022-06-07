@@ -1,0 +1,127 @@
+@media screen and (min-width:800px) and (max-width:1024px) {
+    .letra{
+        margin: 0px;
+        width: 100px;
+    }
+    
+
+    .fondo-blanco{
+        width: auto;
+
+        .sobre-mi{
+            margin: 0px;
+            margin-left: 10px;
+        }
+        .tecnologias{
+            padding: 0px;
+        }
+    }
+
+    .mis-proyectos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        column-gap: 35px;
+        row-gap: 45px; 
+        
+        img{
+            margin-left: 10px;
+        }
+        
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+
+    header{
+        width: 200%;
+
+        .letra{
+            font-size: 40px;
+        }
+        .menu{
+            margin: 0px;
+            padding-top: 15px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            justify-content: space-around;
+            column-gap: 60px;
+            row-gap: 45px; 
+        }
+        li{
+            font-size: 40px;
+        }   
+
+    }
+
+    main{
+        width: 200%;
+    
+        .contacto-form{
+            font-size: 35px;
+
+            .input{
+                font-size: 25px;
+            }
+            textarea{
+                font-size: 25px;
+            }
+            .botton{
+                font-size: 25px;
+            }
+        }
+
+        .biografia{
+            h2{
+                width: 100%;
+            }
+
+        }
+
+        .fondo-blanco{
+            width: auto;
+            display: grid;
+
+            .sobre-mi{
+                margin: 0px;
+                margin-left: 10px;
+                font-size: 30px;
+            }
+            .tecnologias{
+                padding: 0px;
+                font-size: 30px;
+            }
+        }
+        h2{
+            font-size: 35px;
+        }
+
+        
+
+        .mis-proyectos{
+            display: grid;
+            font-size: 40px;
+            
+            
+            img{
+                margin-left: 10px;
+            }
+
+            .botton{
+                font-size: 25px;
+            }
+        }  
+    
+    }  
+    
+    
+
+    footer{
+        width: 200%;
+        font-size: 35px;
+        li{
+            width:150%; 
+        }
+    }
+}

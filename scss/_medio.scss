@@ -26,6 +26,11 @@
         
         li{
             margin: 15px;
+            padding: 0px;
+            transition: all 1s ease-in-out;
+        }
+        li:hover{
+            transform: rotate(360deg);
         }
     }
 
@@ -33,6 +38,9 @@
 
 .biografia{
     width: 50%;
+    h2{
+        width: 45%;
+    }
 }
 .fondo-blanco{
     backdrop-filter: blur(2px);
@@ -55,12 +63,16 @@
 
         img{
             padding: 10px;
+            transition: 0.1s all ease-in-out;
+        }
+        img:hover{
+            transform: scale(1.1);
         }
     }
 }
 
-.mis-proyectos{
-    align-content:center;
+h2{
+    text-align: center;
     color: #fff;
 
 }
@@ -70,14 +82,23 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        
+
+        img{
+            transition: 0.1s all ease-in-out;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
         .botton{
             padding: 10px 20px ;
             border-radius: 20px;
             border: none;
             text-transform: uppercase;
-            background-color: aqua;
-            
+            background-color: aqua; 
+            transition: 0.1s all ease-in-out;
+        }
+        .botton:hover{
+            transform: scale(1.1);
         }
     }
 

@@ -30,7 +30,12 @@ main {
   .menu .active {
     color: aqua; }
   .menu li {
-    list-style: none; }
+    list-style: none;
+    transition: ease-out all 0.5s; }
+  .menu li:hover {
+    background-color: #fce5e5;
+    background-size: cover;
+    transform: scale(1); }
   .menu a {
     color: #fff;
     text-decoration: none; }
@@ -54,10 +59,16 @@ main {
     justify-content: left;
     padding: 0; }
     .foto-mia .redes li {
-      margin: 15px; }
+      margin: 15px;
+      padding: 0px;
+      transition: all 1s ease-in-out; }
+    .foto-mia .redes li:hover {
+      transform: rotate(360deg); }
 
 .biografia {
   width: 50%; }
+  .biografia h2 {
+    width: 45%; }
 
 .fondo-blanco {
   backdrop-filter: blur(2px);
@@ -74,10 +85,13 @@ main {
   .fondo-blanco .tecnologias {
     padding-top: 20px; }
     .fondo-blanco .tecnologias img {
-      padding: 10px; }
+      padding: 10px;
+      transition: 0.1s all ease-in-out; }
+    .fondo-blanco .tecnologias img:hover {
+      transform: scale(1.1); }
 
-.mis-proyectos {
-  align-content: center;
+h2 {
+  text-align: center;
   color: #fff; }
 
 .mis-proyectos {
@@ -86,12 +100,19 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly; }
+  .mis-proyectos img {
+    transition: 0.1s all ease-in-out; }
+  .mis-proyectos img:hover {
+    transform: scale(1.1); }
   .mis-proyectos .botton {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
     text-transform: uppercase;
-    background-color: aqua; }
+    background-color: aqua;
+    transition: 0.1s all ease-in-out; }
+  .mis-proyectos .botton:hover {
+    transform: scale(1.1); }
 
 .contacto-form {
   display: flex;
@@ -140,6 +161,8 @@ hr {
   align-items: center;
   justify-content: space-evenly;
   background-color: aqua; }
+  .footer h2 {
+    color: black; }
   .footer div {
     margin-top: 150px; }
     .footer div .texto {
@@ -151,4 +174,81 @@ hr {
     flex-direction: row;
     margin-right: 40px; }
     .footer .redes li {
-      margin: 15px; }
+      margin: 15px;
+      padding: 0px;
+      transition: all 1s ease-in-out; }
+    .footer .redes li:hover {
+      transform: rotate(360deg); }
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .letra {
+    margin: 0px;
+    width: 100px; }
+  .fondo-blanco {
+    width: auto; }
+    .fondo-blanco .sobre-mi {
+      margin: 0px;
+      margin-left: 10px; }
+    .fondo-blanco .tecnologias {
+      padding: 0px; }
+  .mis-proyectos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 35px;
+    row-gap: 45px; }
+    .mis-proyectos img {
+      margin-left: 10px; } }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  header {
+    width: 200%; }
+    header .letra {
+      font-size: 40px; }
+    header .menu {
+      margin: 0px;
+      padding-top: 15px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      justify-content: space-around;
+      column-gap: 60px;
+      row-gap: 45px; }
+    header li {
+      font-size: 40px; }
+  main {
+    width: 200%; }
+    main .contacto-form {
+      font-size: 35px; }
+      main .contacto-form .input {
+        font-size: 25px; }
+      main .contacto-form textarea {
+        font-size: 25px; }
+      main .contacto-form .botton {
+        font-size: 25px; }
+    main .biografia h2 {
+      width: 100%; }
+    main .fondo-blanco {
+      width: auto;
+      display: grid; }
+      main .fondo-blanco .sobre-mi {
+        margin: 0px;
+        margin-left: 10px;
+        font-size: 30px; }
+      main .fondo-blanco .tecnologias {
+        padding: 0px;
+        font-size: 30px; }
+    main h2 {
+      font-size: 35px; }
+    main .mis-proyectos {
+      display: grid;
+      font-size: 40px; }
+      main .mis-proyectos img {
+        margin-left: 10px; }
+      main .mis-proyectos .botton {
+        font-size: 25px; }
+  footer {
+    width: 200%;
+    font-size: 35px; }
+    footer li {
+      width: 150%; } }
